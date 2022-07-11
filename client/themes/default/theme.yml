@@ -8,7 +8,7 @@ requirements:
 props:
   sdPosition:
     type: String
-    default: 'left'
+    default: 'right'
     title: Table of Contents Position
     hint: Should the content sidebar be shown on the left or right.
     enum:
@@ -24,17 +24,17 @@ props:
     order: 2
   showTags:
     type: Boolean
-    default: true
+    default: false
     title: Display the Page Tags
     order: 3
   showTags:
     type: Boolean
-    default: true
+    default: false
     title: Display the Page Author and Date
     order: 4
   showTags:
     type: Boolean
-    default: true
+    default: false
     title: Display the Page Rating
     order: 5
   showSocialBar:
